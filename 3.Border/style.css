@@ -1,0 +1,57 @@
+.borders {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    padding: 20px;
+}
+
+.container {
+    background-color: white;
+    text-align: center;
+    height: 70px;
+    color: white;
+    padding: 30px;
+    font-size: 50px;
+    background-color: fuchsia;
+    margin: 10px;
+}
+
+.solid {
+    border: 6px solid gold;
+}
+
+.dashed {
+    border: 6px dashed gold;
+}
+
+.dotted {
+    border: 6px dotted gold;
+}
+
+.double {
+    border: 6px double gold;
+}
+
+.groove {
+    border: 6px groove gold;
+}
+
+.ridge {
+    border: 6px ridge gold;
+}
+
+.inset {
+    border: 6px inset gold;
+    border-bottom: none;
+    border-right: none;
+}
+
+.outset {
+    border: 6px outset gold;
+    border-top: none;
+    border-left: none;
+}
+
+.none {
+    border: none;
+}

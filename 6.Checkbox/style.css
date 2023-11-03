@@ -1,0 +1,37 @@
+body{
+    background-color: purple;
+    padding: 20px;
+}
+
+.container{
+    background-color: goldenrod;
+    padding: 50px;
+}
+
+.tasks{
+    width: 500px;
+    margin: 130px auto;
+    background-color: white;
+}
+
+h2{
+    background-color: purple;
+    height: 40px;
+    padding: 20px 10px;
+    color: white;
+}
+
+.allTask{
+    padding: 10px;
+}
+
+.first, .second, .third {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+}
+
+.first p, .second p{
+    text-decoration: line-through;
+}

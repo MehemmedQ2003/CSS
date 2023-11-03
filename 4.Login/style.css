@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    background-color: #6e84df;
+}
+
+.loginForm{
+    width: 450px;
+    background-color: white;
+    margin: 100px auto;
+    border-radius: 10px;
+    padding: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+.x{
+    text-align: right;
+    font-weight: bolder;
+}
+
+.input{
+    text-align: left;
+    margin: 10px 0;
+}
+
+label{
+    display: block;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+input{
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+}
+
+.fgtPassword{
+    color:lightskyblue;
+    font-weight: 500;
+}
+
+button{
+    margin: 20px 0;
+    padding: 5px;
+    height: 50px;
+    border: none;
+    color: white;
+    background-color: #6e84df;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    width: 100%;
+}
+
+.member a{
+    color: lightskyblue;
+    font-weight: 500;
+}
